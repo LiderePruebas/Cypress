@@ -1,0 +1,26 @@
+[
+    {
+        "test": "test#1",
+        "username": "1",
+        "password": "2",
+        "expected": "Usuario o Contraseña Incorrecto"
+    },
+    {
+        "test": "test#2",
+        "username": "1",
+        "password": "2",
+        "expected": "Usuario o Contraseña Incorrecto"
+    },
+    {
+        "test": "test#3",
+        "username": "1",
+        "password": "2",
+        "expected": "Ha exedido los intentos de inicio, por favor refresque y vuelve a intentarlo"
+    },
+    {
+        "test": "test#4",
+        "username": "agente",
+        "password": "Cloud2021*",
+        "expected": "helppeople"
+    }
+]

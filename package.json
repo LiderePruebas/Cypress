@@ -1,0 +1,42 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Modulo de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:op":"cypress run --spec cypress/integration/4-Flujo/user.spec.js --record --key 3ad04a7e-4a5f-475e-ad15-b057f1c140b9",
+    "cypress:run": "cypress run --record --key 8b8b30c3-606a-4c9a-9fc8-256a9a13059d",
+    "cypress:runDefault": "cypress run --spec cypress/integration/3-Helpdesk/Maestro.spec.js --record --key c9681d29-a930-4ffc-a99e-875fbbcdfa9a",
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/integration/1-getting-started/Ensayos.spec.js",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/integration/1-getting-started/Ensayos.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quewar/cypress.git"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "frameworks"
+  ],
+  "author": "helppeople cloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quewar/cypress/issues"
+  },
+  "homepage": "https://github.com/quewar/cypress#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.1",
+    "cypress": "^8.5.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "cypress-react-selector": "^2.3.11"
+  }
+}
